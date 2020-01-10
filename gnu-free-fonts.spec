@@ -3,7 +3,7 @@
 
 Name:      %{fontname}-fonts
 Version:   20120503
-Release:   7%{?dist}
+Release:   8%{?dist}
 Summary:   Free UCS Outline Fonts
 Group:     User Interface/X
 # Standard font exception
@@ -123,6 +123,9 @@ rm -rf %{buildroot}
 %doc AUTHORS ChangeLog CREDITS COPYING README
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20120503-8
+- Mass rebuild 2013-12-27
+
 * Mon Jun 24 2013 Jon Ciesla <limburgher@gmail.com> 20120503-7
 - Patch for devanagari rendering, BZ 961298.
 
